@@ -101,7 +101,7 @@ Prime numbers play a crucial role in PRNGs. The Blum Blum Shub algorithm, for ex
 
 ---
 ## Dependency
-### **Golang Last Version **
+### **Golang Last Version**
 🛠️ Installing Go
 
 To run the Go example above, you need to have Go installed on your system. Follow the official installation instructions at: [Go Installation Guide](https://go.dev/doc/install)
