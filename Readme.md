@@ -100,6 +100,12 @@ Prime numbers play a crucial role in PRNGs. The Blum Blum Shub algorithm, for ex
 - Blum, L., Blum, M., & Shub, M. (1986). A Simple Unpredictable Pseudo-Random Number Generator. SIAM Journal on Computing.
 
 ---
+## Dependency
+### ** Golang Last Version **
+🛠️ Installing Go
+
+To run the Go example above, you need to have Go installed on your system. Follow the official installation instructions at: ![Go Installation Guide](https://go.dev/doc/install)
+
 ## ⚡ Installation & Usage
 
 ### **1️⃣ Clone the Repository**
