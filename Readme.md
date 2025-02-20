@@ -67,7 +67,6 @@ ENTRYPOINT ["/app/jokenpo"]
 go clean -testcache
 CGO_ENABLED=1 go test -race  ./...
 ?   	jokenpo.provengo.io	[no test files]
-?   	jokenpo.provengo.io	[no test files]
 ok  	jokenpo.provengo.io/internal/dbhandler	1.022s
 ok  	jokenpo.provengo.io/internal/encrypt	2.062s
 ok  	jokenpo.provengo.io/internal/game	1.195s
