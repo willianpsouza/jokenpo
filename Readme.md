@@ -104,6 +104,6 @@ Prime numbers play a crucial role in PRNGs. The Blum Blum Shub algorithm, for ex
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/willianpsouza/jokenpo/
+git clone https://github.com/willianpsouza/jokenpo.git
 cd jokenpo
 go run main.go
