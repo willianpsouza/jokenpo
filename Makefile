@@ -6,9 +6,9 @@ CMDS := jokenpo
 CGO_ENABLED := 0
 C_FLAGS := -s -w
 
-.PHONY: all stage build clean vet fmt test run
+.PHONY: all stage build clean vet fmt test race run
 
-all: clean stage vet fmt test build run
+all: clean stage vet fmt test race build run
 
 stage:
 	@echo "Creating build folder"
@@ -24,6 +24,10 @@ build:
 test:
 	@echo "Testing"
 	@go test ./...
+
+race:
+	@echo "Testing race condition"
+	@go test -race ./...
 
 fmt:
 	@echo "Formating"
