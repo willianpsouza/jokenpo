@@ -17,7 +17,7 @@ stage:
 
 build:
 	@echo "Compiling $(CMDS).... "
-	@go build -ldflags "$(C_FLAGS)" -o $(BIN_DIR)/$(CMDS) main.go
+	@go build -ldflags "$(C_FLAGS)" -o $(BIN_DIR)/$(CMDS) $(SRC_DIR)/main.go
 
 .PHONY:
 
