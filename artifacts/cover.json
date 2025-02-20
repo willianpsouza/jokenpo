@@ -1,0 +1,133 @@
+{"Time":"2025-02-20T07:14:56.069640263-06:00","Action":"start","Package":"jokenpo.provengo.io"}
+{"Time":"2025-02-20T07:14:56.071676035-06:00","Action":"output","Package":"jokenpo.provengo.io","Output":"\tjokenpo.provengo.io\t\tcoverage: 0.0% of statements\n"}
+{"Time":"2025-02-20T07:14:56.07172927-06:00","Action":"pass","Package":"jokenpo.provengo.io","Elapsed":0.002}
+{"Time":"2025-02-20T07:14:56.195477153-06:00","Action":"start","Package":"jokenpo.provengo.io/internal/dbhandler"}
+{"Time":"2025-02-20T07:14:56.195640573-06:00","Action":"start","Package":"jokenpo.provengo.io/internal/encrypt"}
+{"Time":"2025-02-20T07:14:56.195696927-06:00","Action":"start","Package":"jokenpo.provengo.io/internal/game"}
+{"Time":"2025-02-20T07:14:56.195734366-06:00","Action":"start","Package":"jokenpo.provengo.io/internal/randomize"}
+{"Time":"2025-02-20T07:14:56.195754241-06:00","Action":"start","Package":"jokenpo.provengo.io/internal/setup"}
+{"Time":"2025-02-20T07:14:56.19581744-06:00","Action":"start","Package":"jokenpo.provengo.io/internal/utils"}
+{"Time":"2025-02-20T07:14:56.196605097-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestRealRandomSeed"}
+{"Time":"2025-02-20T07:14:56.196640604-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestRealRandomSeed","Output":"=== RUN   TestRealRandomSeed\n"}
+{"Time":"2025-02-20T07:14:56.196786674-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestRealRandomSeed","Output":"--- PASS: TestRealRandomSeed (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.196810214-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestRealRandomSeed","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.196823796-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestMultipleCalls"}
+{"Time":"2025-02-20T07:14:56.196827386-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestMultipleCalls","Output":"=== RUN   TestMultipleCalls\n"}
+{"Time":"2025-02-20T07:14:56.19692418-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum"}
+{"Time":"2025-02-20T07:14:56.19693634-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum","Output":"=== RUN   TestCalculateChecksum\n"}
+{"Time":"2025-02-20T07:14:56.196948856-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/MD5"}
+{"Time":"2025-02-20T07:14:56.196950491-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/MD5","Output":"=== RUN   TestCalculateChecksum/MD5\n"}
+{"Time":"2025-02-20T07:14:56.196953757-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/MD5","Output":"--- PASS: TestCalculateChecksum/MD5 (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.19695561-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/MD5","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.196958309-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/SHA256"}
+{"Time":"2025-02-20T07:14:56.196959609-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/SHA256","Output":"=== RUN   TestCalculateChecksum/SHA256\n"}
+{"Time":"2025-02-20T07:14:56.196962362-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/SHA256","Output":"--- PASS: TestCalculateChecksum/SHA256 (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.196965738-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/SHA256","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.196970031-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/SHA512"}
+{"Time":"2025-02-20T07:14:56.196971441-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/SHA512","Output":"=== RUN   TestCalculateChecksum/SHA512\n"}
+{"Time":"2025-02-20T07:14:56.196982701-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/SHA512","Output":"--- PASS: TestCalculateChecksum/SHA512 (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.196985988-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/SHA512","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.196989708-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/BCRYPT"}
+{"Time":"2025-02-20T07:14:56.197008692-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/BCRYPT","Output":"=== RUN   TestCalculateChecksum/BCRYPT\n"}
+{"Time":"2025-02-20T07:14:56.19702894-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestInitializeDatabase"}
+{"Time":"2025-02-20T07:14:56.197031536-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestInitializeDatabase","Output":"=== RUN   TestInitializeDatabase\n"}
+{"Time":"2025-02-20T07:14:56.197071335-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestMultipleCalls","Output":"--- PASS: TestMultipleCalls (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197086015-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestMultipleCalls","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197093345-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestRandomSeedRange"}
+{"Time":"2025-02-20T07:14:56.197096936-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestRandomSeedRange","Output":"=== RUN   TestRandomSeedRange\n"}
+{"Time":"2025-02-20T07:14:56.197113846-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/utils","Test":"TestCheckPathExists"}
+{"Time":"2025-02-20T07:14:56.197118183-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/utils","Test":"TestCheckPathExists","Output":"=== RUN   TestCheckPathExists\n"}
+{"Time":"2025-02-20T07:14:56.197216385-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/utils","Test":"TestCheckPathExists","Output":"--- PASS: TestCheckPathExists (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197229756-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/utils","Test":"TestCheckPathExists","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197237111-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/utils","Test":"TestCheck"}
+{"Time":"2025-02-20T07:14:56.197240558-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/utils","Test":"TestCheck","Output":"=== RUN   TestCheck\n"}
+{"Time":"2025-02-20T07:14:56.19725359-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestRandomSeedRange","Output":"--- PASS: TestRandomSeedRange (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197258249-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/randomize","Test":"TestRandomSeedRange","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197261656-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/randomize","Output":"PASS\n"}
+{"Time":"2025-02-20T07:14:56.19726376-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/game","Test":"TestDetermineWinner"}
+{"Time":"2025-02-20T07:14:56.197283336-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/game","Test":"TestDetermineWinner","Output":"=== RUN   TestDetermineWinner\n"}
+{"Time":"2025-02-20T07:14:56.197283449-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants"}
+{"Time":"2025-02-20T07:14:56.197287507-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/game","Test":"TestDetermineWinner","Output":"--- PASS: TestDetermineWinner (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197293173-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/game","Test":"TestDetermineWinner","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197296979-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/game","Test":"TestGetComputerChoice"}
+{"Time":"2025-02-20T07:14:56.197291653-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants","Output":"=== RUN   TestConstants\n"}
+{"Time":"2025-02-20T07:14:56.197302928-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/game","Test":"TestGetComputerChoice","Output":"=== RUN   TestGetComputerChoice\n"}
+{"Time":"2025-02-20T07:14:56.197305627-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DataPath"}
+{"Time":"2025-02-20T07:14:56.19730722-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DataPath","Output":"=== RUN   TestConstants/DataPath\n"}
+{"Time":"2025-02-20T07:14:56.197324919-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DataPath","Output":"--- PASS: TestConstants/DataPath (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197332237-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DataPath","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197337685-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/SqliteFilename"}
+{"Time":"2025-02-20T07:14:56.197342767-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/SqliteFilename","Output":"=== RUN   TestConstants/SqliteFilename\n"}
+{"Time":"2025-02-20T07:14:56.19734694-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/SqliteFilename","Output":"--- PASS: TestConstants/SqliteFilename (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197352518-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/SqliteFilename","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197358284-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/SqlDriver"}
+{"Time":"2025-02-20T07:14:56.197361477-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/SqlDriver","Output":"=== RUN   TestConstants/SqlDriver\n"}
+{"Time":"2025-02-20T07:14:56.197365173-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/SqlDriver","Output":"--- PASS: TestConstants/SqlDriver (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197368433-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/SqlDriver","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197371544-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DefaultEncKey"}
+{"Time":"2025-02-20T07:14:56.197374204-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DefaultEncKey","Output":"=== RUN   TestConstants/DefaultEncKey\n"}
+{"Time":"2025-02-20T07:14:56.197379648-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DefaultEncKey","Output":"--- PASS: TestConstants/DefaultEncKey (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197383117-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DefaultEncKey","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197386116-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/BlockConcat"}
+{"Time":"2025-02-20T07:14:56.197388685-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/BlockConcat","Output":"=== RUN   TestConstants/BlockConcat\n"}
+{"Time":"2025-02-20T07:14:56.197391999-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/BlockConcat","Output":"--- PASS: TestConstants/BlockConcat (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.19739514-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/BlockConcat","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197398165-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DefaultAlgo"}
+{"Time":"2025-02-20T07:14:56.197400795-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DefaultAlgo","Output":"=== RUN   TestConstants/DefaultAlgo\n"}
+{"Time":"2025-02-20T07:14:56.197412903-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DefaultAlgo","Output":"--- PASS: TestConstants/DefaultAlgo (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197416823-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants/DefaultAlgo","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197420501-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants","Output":"--- PASS: TestConstants (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197423772-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/setup","Test":"TestConstants","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197427811-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Output":"PASS\n"}
+{"Time":"2025-02-20T07:14:56.197435061-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/utils","Test":"TestCheck","Output":"--- PASS: TestCheck (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197438698-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/utils","Test":"TestCheck","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197441608-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/utils","Output":"PASS\n"}
+{"Time":"2025-02-20T07:14:56.197448167-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestInitializeDatabase","Output":"--- PASS: TestInitializeDatabase (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.197453143-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestInitializeDatabase","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197457352-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestSaveGameResult"}
+{"Time":"2025-02-20T07:14:56.197460274-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestSaveGameResult","Output":"=== RUN   TestSaveGameResult\n"}
+{"Time":"2025-02-20T07:14:56.197580334-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/randomize","Output":"coverage: 100.0% of statements\n"}
+{"Time":"2025-02-20T07:14:56.197660448-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Output":"coverage: [no statements]\n"}
+{"Time":"2025-02-20T07:14:56.19772311-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/utils","Output":"coverage: 100.0% of statements\n"}
+{"Time":"2025-02-20T07:14:56.197851974-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/randomize","Output":"ok  \tjokenpo.provengo.io/internal/randomize\t0.002s\tcoverage: 100.0% of statements\n"}
+{"Time":"2025-02-20T07:14:56.197887911-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestSaveGameResult","Output":"--- PASS: TestSaveGameResult (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.19790219-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestSaveGameResult","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.197907896-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestGetResultsFromUser"}
+{"Time":"2025-02-20T07:14:56.19791185-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestGetResultsFromUser","Output":"=== RUN   TestGetResultsFromUser\n"}
+{"Time":"2025-02-20T07:14:56.197913338-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/setup","Output":"ok  \tjokenpo.provengo.io/internal/setup\t0.002s\tcoverage: [no statements]\n"}
+{"Time":"2025-02-20T07:14:56.197950723-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/utils","Output":"ok  \tjokenpo.provengo.io/internal/utils\t0.002s\tcoverage: 100.0% of statements\n"}
+{"Time":"2025-02-20T07:14:56.198193464-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/randomize","Elapsed":0.002}
+{"Time":"2025-02-20T07:14:56.198251957-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestGetResultsFromUser","Output":"--- PASS: TestGetResultsFromUser (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.198258323-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/dbhandler","Test":"TestGetResultsFromUser","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.198261834-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/dbhandler","Output":"PASS\n"}
+{"Time":"2025-02-20T07:14:56.198423538-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/setup","Elapsed":0.003}
+{"Time":"2025-02-20T07:14:56.198449892-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/dbhandler","Output":"coverage: 78.0% of statements\n"}
+{"Time":"2025-02-20T07:14:56.198464953-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/utils","Elapsed":0.003}
+{"Time":"2025-02-20T07:14:56.198858564-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/dbhandler","Output":"ok  \tjokenpo.provengo.io/internal/dbhandler\t0.003s\tcoverage: 78.0% of statements\n"}
+{"Time":"2025-02-20T07:14:56.199067126-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/dbhandler","Elapsed":0.004}
+{"Time":"2025-02-20T07:14:56.220077471-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/game","Test":"TestGetComputerChoice","Output":"--- PASS: TestGetComputerChoice (0.02s)\n"}
+{"Time":"2025-02-20T07:14:56.220105155-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/game","Test":"TestGetComputerChoice","Elapsed":0.02}
+{"Time":"2025-02-20T07:14:56.220111156-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/game","Test":"TestGameReport"}
+{"Time":"2025-02-20T07:14:56.220113745-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/game","Test":"TestGameReport","Output":"=== RUN   TestGameReport\n"}
+{"Time":"2025-02-20T07:14:56.220734329-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/game","Test":"TestGameReport","Output":"--- PASS: TestGameReport (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.22074053-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/game","Test":"TestGameReport","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.220749915-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/game","Test":"TestWinnerMessages"}
+{"Time":"2025-02-20T07:14:56.220752806-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/game","Test":"TestWinnerMessages","Output":"=== RUN   TestWinnerMessages\n"}
+{"Time":"2025-02-20T07:14:56.220758619-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/game","Test":"TestWinnerMessages","Output":"--- PASS: TestWinnerMessages (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.220826413-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/game","Test":"TestWinnerMessages","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.220829983-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/game","Output":"PASS\n"}
+{"Time":"2025-02-20T07:14:56.22108879-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/game","Output":"coverage: 31.1% of statements\n"}
+{"Time":"2025-02-20T07:14:56.221838026-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/game","Output":"ok  \tjokenpo.provengo.io/internal/game\t0.026s\tcoverage: 31.1% of statements\n"}
+{"Time":"2025-02-20T07:14:56.22262171-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/game","Elapsed":0.027}
+{"Time":"2025-02-20T07:14:56.286033935-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/BCRYPT","Output":"--- PASS: TestCalculateChecksum/BCRYPT (0.09s)\n"}
+{"Time":"2025-02-20T07:14:56.286070091-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/BCRYPT","Elapsed":0.09}
+{"Time":"2025-02-20T07:14:56.286074576-06:00","Action":"run","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/BASE64_(default_case)"}
+{"Time":"2025-02-20T07:14:56.286076658-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/BASE64_(default_case)","Output":"=== RUN   TestCalculateChecksum/BASE64_(default_case)\n"}
+{"Time":"2025-02-20T07:14:56.286088984-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/BASE64_(default_case)","Output":"--- PASS: TestCalculateChecksum/BASE64_(default_case) (0.00s)\n"}
+{"Time":"2025-02-20T07:14:56.286091469-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum/BASE64_(default_case)","Elapsed":0}
+{"Time":"2025-02-20T07:14:56.286098429-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum","Output":"--- PASS: TestCalculateChecksum (0.09s)\n"}
+{"Time":"2025-02-20T07:14:56.286100975-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/encrypt","Test":"TestCalculateChecksum","Elapsed":0.09}
+{"Time":"2025-02-20T07:14:56.286103506-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Output":"PASS\n"}
+{"Time":"2025-02-20T07:14:56.286345657-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Output":"coverage: 93.3% of statements\n"}
+{"Time":"2025-02-20T07:14:56.286765244-06:00","Action":"output","Package":"jokenpo.provengo.io/internal/encrypt","Output":"ok  \tjokenpo.provengo.io/internal/encrypt\t0.091s\tcoverage: 93.3% of statements\n"}
+{"Time":"2025-02-20T07:14:56.286997111-06:00","Action":"pass","Package":"jokenpo.provengo.io/internal/encrypt","Elapsed":0.091}
