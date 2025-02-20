@@ -31,7 +31,7 @@ jobs:
       - name: Full Tests
         run: go test -v ./...
       - name: Compiling binary
-        run: go build -o jokenpo cmd/.
+        run: go build -o jokenpo cmd/main.go
       - name: Saving binary as artifact
         uses: actions/upload-artifact@v3
         with:
