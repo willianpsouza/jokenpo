@@ -1,6 +1,6 @@
 # 🕹️ Korean-Style Jokenpo CLI in Golang
 
-![Jokenpo Korean Style]([https://pm1.aminoapps.com/6638/1aeb77cb1a11ed25a7cae88ac60cccd123dafc10_hq.jpg](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*mqX7H2I9mubkpT9FumcNZA.png))
+![Jokenpo Korean Style](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*mqX7H2I9mubkpT9FumcNZA.png)
 
 ## 🎮 About the Game
 
