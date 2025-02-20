@@ -50,10 +50,11 @@ This creates a **basic blockchain mechanism**. In the future, a function can **v
 
 ## 🏗️ Technical challenges
 
-- The prime-based random module is simple but serves the purpose of challenge and game play, the Harmony VRF mode given the sophistication of the Harmony VRF module, I believe its best use is in a blockchain where the public verification characteristics of the random value could be validated by anyone.
+- The prime-based random module is simple but serves the purpose of challenge and game play, the Harmony VRF mode given the sophistication of the Harmony VRF module, I believe it's fits to use is in a blockchain where the public verification characteristics of the random value could be validated by anyone.
 - Tests are full implemented.
-- One Makefile has been provided, to make easy run in container. `$make all` will perform like charm.
-- Jokenpo.yaml file create artifact to be used inside simple container. 
+- One Makefile has been provided, to make easy run on your computer. `$make all` will perform tests,build and run like charm.
+- Jokenpo.yaml file create artifact to be used by pipeline
+- After pipeline run, GithubActions can copy artifact "jokenpo" inside container.
 ```dockerfile
 FROM alpine:latest
 WORKDIR /app
@@ -61,7 +62,7 @@ COPY . .
 ENV GOMAXPROCS=4
 ENTRYPOINT ["/app/jokenpo"]
 ```
-- At race conditions tests randomize tools show weakness, and context mutex has been implemented, to avoid race conditions.
+- Running race conditions tests, randomize tools show weakness, and context mutex has been implemented, to avoid race conditions.
 
 ```bash
 go clean -testcache
