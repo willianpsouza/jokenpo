@@ -19,7 +19,7 @@ jobs:
       - name: Install Golang
         uses: actions/setup-go@v4
         with:
-          go-version: 1.23
+          go-version: 1.23.4
       - name: Create Folders
         run: mkdir -p /tmp/data
       - name: Installing dependencies
@@ -33,7 +33,7 @@ jobs:
       - name: Compiling binary
         run: go build -o jokenpo .
       - name: Saving binary as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: jokenpo-binary
           path: jokenpo
